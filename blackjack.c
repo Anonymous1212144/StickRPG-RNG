@@ -93,7 +93,7 @@ int best_play(int cards[])
 
 int main()
 {
-    // Prompt for 8 roulette numbers and
+    // Prompt for 8 roulette numbers
     int numbers[8];
     int T[8];
     int j = 0;
