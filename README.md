@@ -16,6 +16,7 @@ For blackjack.exe example, below is a screenshot of the output for my run. The l
 
 ## About the Update
 - Now the program will ask you for numbers until it cannot find a duplicate anymore, so you can be certain that (assuming no bugs etc), the output is the unique seed that would result in your roulette rolls
+- The program no longer terminates easily now, you will probably need to press the x button or some other way to force terminate
 - The very small but non-zero chance of it failing is hopefully patched
 - It is now prettier! Look at this, it is beautiful lol
 
