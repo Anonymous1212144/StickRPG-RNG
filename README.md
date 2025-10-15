@@ -5,7 +5,7 @@ There are 2 executables in the release. The blackjack.exe is the one I used for 
 
 For blackjack.exe example, below is a screenshot of the output for my run. The last roulette number I entered is "10", which is the internal representation of the "11" shown on screen (more info later). In the actual run I saw "J4" as the first 2 cards dealt to me, so I followed the numbers on the row with "J4". 0-2 means I should hit 0-2 times, and -1 means I should skip.
 
-![alt text](https://github.com/Anonymous1212144/StickRPG-RNG/blob/main/seed_run.png)
+![seed_run.png](https://github.com/Anonymous1212144/StickRPG-RNG/blob/main/seed_run.png)
 
 ## The "more info"
 - blackjack.exe is designed so that right after you enter the last number, you start a new run as fast as possible. It also seems to fail if you have a lot of money, so try to quit with as little as possible.
@@ -13,3 +13,10 @@ For blackjack.exe example, below is a screenshot of the output for my run. The l
 - The first number in the list (before the | ) is what you should've played when you see the first 2 dealt cards, but there's no bet so there's no point in following it
 - The internal representation of roulette number is \<shown number>-1 for numbers from 1-36, 36 for "0", and 37 for "00"
 - Watch the speedrun that destroyed the world record at the time using this tech here: https://www.speedrun.com/stick_rpg/runs/zgo60lvm
+
+## About the Update
+- Now the program will ask you for numbers until it cannot find a duplicate anymore, so you can be certain that (assuming no bugs etc), the output is the unique seed that would result in your roulette rolls
+- The very small but non-zero chance of it failing is hopefully patched
+- It is now prettier! Look at this, it is beautiful lol
+
+![seed_run2.png](https://github.com/Anonymous1212144/StickRPG-RNG/blob/main/seed_run2.png)
